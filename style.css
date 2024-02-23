@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+}
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    margin: 10px;
+    list-style: none;
+
+}
+
+nav ul li:nth-child(2) {
+    align-self: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.center {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 20px;
+
+}
